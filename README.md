@@ -24,14 +24,10 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-M69NCF3qH)
+- [Live Site URL](https://tttinh.github.io/frontendmentor_001/)
 
 ## My process
 
