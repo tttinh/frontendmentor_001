@@ -80,11 +80,16 @@ body {
 }
 
 .card-img {
-    position: relative;
-  }
+  position: relative;
+}
 
 .card-img img {
   display: block;
+}
+
+.mobile-img {
+  position: absolute;
+  visibility: hidden;
 }
 
 .img-overlay {
@@ -95,4 +100,49 @@ body {
   left: 0;
   z-index: 10;
   background-color: hsla(277, 64%, 30%, 0.6);
+}
+
+@media all and (max-width: 768px) {
+  .center-screen {
+    margin: 40px 0;
+  }
+
+  .flex {
+    flex-direction: column-reverse;
+  }
+
+  .card {
+    text-align: center;
+    max-width: 325px;
+  }
+
+  .card h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .card-img img {
+    width: 100%;
+  }
+
+  .card-text {
+    margin: 2rem;
+  }
+
+  .card-stats {
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .mobile-img {
+    position: static;
+    visibility: visible;
+  }
+
+  .desktop-img {
+    position: absolute;
+    visibility: hidden;
+  }
+
 }
