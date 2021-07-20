@@ -41,7 +41,7 @@ Users should be able to:
 - CSS custom properties
 - CSS Flex
 - CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 
 ### What I learned
 
