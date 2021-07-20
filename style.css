@@ -20,14 +20,8 @@ body {
   font-size: 15px;
   line-height: 1.6;
   background-color: var(--color-primary);
-  align-items: center;
-}
-
-.center-screen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   min-height: 100vh;
 }
 
@@ -144,5 +138,4 @@ body {
     position: absolute;
     visibility: hidden;
   }
-
 }

@@ -44,12 +44,10 @@ Users should be able to:
 - Center a `div` using CSS Flex.
 
 ```css
-.center-screen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+body {
+   display:grid;
+   place-items:center;
+   min-height: 100vh;
 }
 ```
 
